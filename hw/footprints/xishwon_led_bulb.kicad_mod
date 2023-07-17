@@ -1,0 +1,71 @@
+(footprint "xishwon_led_bulb" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (attr smd)
+  (fp_text reference "REF**" (at 0 -0.5 unlocked) (layer "F.SilkS")
+      (effects (font (size 1 1) (thickness 0.1)))
+    (tstamp 8fd16450-332b-4e95-a274-584e770c0333)
+  )
+  (fp_text value "xishwon_led_bulb" (at 0 1 unlocked) (layer "F.Fab")
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 9453a14a-5ad9-4439-aa11-77f40923579d)
+  )
+  (fp_text user "${REFERENCE}" (at 0 2.5 unlocked) (layer "F.Fab")
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 907a8361-b320-45e7-a335-60bdc7c5044a)
+  )
+  (fp_line (start -14 42) (end -14 19)
+    (stroke (width 0.1) (type default)) (layer "F.Fab") (tstamp 5044cc35-b30c-414d-a88e-1b0df36e376c))
+  (fp_line (start -11.5 18) (end -11.5 40.5)
+    (stroke (width 0.1) (type default)) (layer "F.Fab") (tstamp c71923f9-8bfa-4d42-b2fa-7f40afe4efc5))
+  (fp_line (start -10.5 15.5) (end -5 15.5)
+    (stroke (width 0.1) (type default)) (layer "F.Fab") (tstamp e11d1a33-6943-4a39-928c-c4fb9abc15e9))
+  (fp_line (start -5 5.5) (end -5 15.5)
+    (stroke (width 0.1) (type default)) (layer "F.Fab") (tstamp 1f621b6a-3994-439a-861c-4c4a002e0774))
+  (fp_line (start -5 5.5) (end 5 5.5)
+    (stroke (width 0.1) (type default)) (layer "F.Fab") (tstamp 84c0d40d-625f-4fca-9a5c-977abe19d779))
+  (fp_line (start 5 5.5) (end 5 15.5)
+    (stroke (width 0.1) (type default)) (layer "F.Fab") (tstamp f0d5df46-6052-4433-9322-17313709c2c5))
+  (fp_line (start 5 15.5) (end 10.5 15.5)
+    (stroke (width 0.1) (type default)) (layer "F.Fab") (tstamp 0588d503-1d55-4b0d-bd9d-6b9080488517))
+  (fp_line (start 10.5 45.5) (end -10.5 45.5)
+    (stroke (width 0.1) (type default)) (layer "F.Fab") (tstamp 680b08aa-82be-451e-9275-6f57879d6390))
+  (fp_line (start 11.5 18) (end 11.5 40.5)
+    (stroke (width 0.1) (type default)) (layer "F.Fab") (tstamp fb54c037-512e-4f0e-8c51-08dcc6e75665))
+  (fp_line (start 11.5 40.5) (end -11.5 40.5)
+    (stroke (width 0.1) (type default)) (layer "F.Fab") (tstamp 2aa69f7e-7b2c-4e0f-a61f-8d134a34b32e))
+  (fp_line (start 14 19) (end 14 42)
+    (stroke (width 0.1) (type default)) (layer "F.Fab") (tstamp 0b7c44b4-d66a-491f-ab5b-47bd40e6c460))
+  (fp_arc (start -14 19) (mid -12.974874 16.525126) (end -10.5 15.5)
+    (stroke (width 0.1) (type default)) (layer "F.Fab") (tstamp cd8af1d4-174e-4942-a52e-4569819ba5bd))
+  (fp_arc (start -10.5 45.5) (mid -12.974874 44.474874) (end -14 42)
+    (stroke (width 0.1) (type default)) (layer "F.Fab") (tstamp c721e9b7-667f-40fd-8134-22c9aeceb328))
+  (fp_arc (start 10.5 15.5) (mid 12.974874 16.525126) (end 14 19)
+    (stroke (width 0.1) (type default)) (layer "F.Fab") (tstamp 5a08928f-6c43-464c-9279-6916425acf18))
+  (fp_arc (start 14 42) (mid 12.974874 44.474874) (end 10.5 45.5)
+    (stroke (width 0.1) (type default)) (layer "F.Fab") (tstamp 4e73a1ec-cbfb-47e6-8943-32549966be81))
+  (pad "1" smd rect (at 3 10.5) (size 4 10) (layers "F.Cu" "F.Paste" "F.Mask")
+    (thermal_bridge_angle 45) (tstamp 036a4242-0385-4a38-8418-c0a863bebfc4))
+  (pad "2" smd rect (at -3 10.5) (size 4 10) (layers "F.Cu" "F.Paste" "F.Mask")
+    (thermal_bridge_angle 45) (tstamp 482c2cce-05df-4b0b-b1ca-7e428693642d))
+  (group "" (id b03ab713-efd2-4696-844d-618d5e67994d)
+    (members
+      036a4242-0385-4a38-8418-c0a863bebfc4
+      0588d503-1d55-4b0d-bd9d-6b9080488517
+      0b7c44b4-d66a-491f-ab5b-47bd40e6c460
+      1f621b6a-3994-439a-861c-4c4a002e0774
+      2aa69f7e-7b2c-4e0f-a61f-8d134a34b32e
+      482c2cce-05df-4b0b-b1ca-7e428693642d
+      4e73a1ec-cbfb-47e6-8943-32549966be81
+      5044cc35-b30c-414d-a88e-1b0df36e376c
+      5a08928f-6c43-464c-9279-6916425acf18
+      680b08aa-82be-451e-9275-6f57879d6390
+      84c0d40d-625f-4fca-9a5c-977abe19d779
+      c71923f9-8bfa-4d42-b2fa-7f40afe4efc5
+      c721e9b7-667f-40fd-8134-22c9aeceb328
+      cd8af1d4-174e-4942-a52e-4569819ba5bd
+      e11d1a33-6943-4a39-928c-c4fb9abc15e9
+      f0d5df46-6052-4433-9322-17313709c2c5
+      fb54c037-512e-4f0e-8c51-08dcc6e75665
+    )
+  )
+)
